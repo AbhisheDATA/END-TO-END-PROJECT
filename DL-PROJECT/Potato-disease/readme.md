@@ -1,0 +1,2 @@
+1. docker run -it -v C:\Users\abhis\OneDrive\Documents\Potato-disease:/Potato-disease -p 8501:8501 --entrypoint /bin/bash tensorflow/serving
+2.tensorflow_model_server --rest_api_port=8501  --allow_version_labels_for_unavailable_models --model_config_file=/Potato-disease/models.config
