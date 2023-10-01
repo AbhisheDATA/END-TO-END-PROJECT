@@ -1,2 +1,5 @@
-...
-key:value
+# Example YAML file
+name: John Doe
+age: 30
+city: New York
+email: johndoe@example.com
